@@ -14,11 +14,11 @@ return(
             </nav>
         </header>
         <section className=" border-y">
-            <div className="flex">
-           {/*  <p className="text-white text-xl">Igniting a Revolution in HR Innovation<svg width="255" height="17" viewBox="0 0 255 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" stroke-width="5"/>
+        <p className="text-center sm:text-right text-white text-2xl">Igniting a Revolution in HR Innovation<svg width="255" height="17" viewBox="0 0 255 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path className="text-center" d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" stroke-width="5"/>
                 </svg>
-            </p> */}
+            </p> 
+            <div className="flex">
             <img src="/public/Purple-Lens-Flare-PNG.png" className="z-0 absolute top-0" alt="" />
             <div className=" flex-col sm:w-1/2 p-8 items-center">
             <h1 className="text-white font-bold text-8xl pb-4">getlinked Tech <br />Hackathon <span className="text-linked">1.0</span></h1>
