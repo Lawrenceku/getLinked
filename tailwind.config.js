@@ -6,6 +6,9 @@ export default {
       colors:{
         'linked': "#D434FE"
       }
+      fontFamily :{
+        clash : ['Nunito']
+      }
     },
   },
   plugins: [],
