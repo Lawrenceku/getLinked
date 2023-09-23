@@ -3,7 +3,7 @@ function Head(){
         <>
         <header className="px-8 pt-8 pb-4 flex items-center justify-between ">
             <p className="text-linked text-2xl font-clash font-bold"><span className="text-white ">get</span>Linked</p>
-            <nav className=" w-1/2 text-white  flex justify-between items-center">
+            <nav className="hidden md:flex w-1/2 text-white  flex justify-between items-center">
                 <a href="" className="text-white">Timeline</a>
                 <a href="" className="text-white">Overview</a>
                 <a href="" className="text-white">FAQs</a>
