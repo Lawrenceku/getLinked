@@ -1,3 +1,5 @@
+import {guy} from "/public/assets/hero-img.png"
+import {bulb} from "/public/assets/introduction-img.png"
 function Hero(){
 
     return(
@@ -20,8 +22,8 @@ function Hero(){
                 <p className="text-4xl text-white text-center sm:text-left">00<span className="text-lg">H</span>     00<span className="text-lg">M</span>     00<span className="text-lg">S</span></p>
             </div>
             <div>
-                <img className="absolute" src="public\Image 1.png" alt="" />
-                <img src="public/assets/hero-img.png" alt="" />
+                <img className="absolute" src={bulb} alt="" />
+                <img src={guy} alt="" />
             </div>
             </div>
         </section>
